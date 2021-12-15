@@ -1,0 +1,65 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    background-color: #f1f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+}
+
+#changeColorBtn {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#changeColorBtn:hover {
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+p {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.colorC {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.colorC:hover {
+    color: #1E90FF;
+    cursor: pointer;
+}
+
+.name {
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.active {
+    color: #1E90FF;
+}
